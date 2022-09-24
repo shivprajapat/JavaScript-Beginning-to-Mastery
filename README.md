@@ -1,1 +1,0 @@
-# 🏆 JavaScript Beginning to Mastery 🏆
