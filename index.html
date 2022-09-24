@@ -19,39 +19,33 @@
 <body>
     <h1>🚀🔥 JavaScript | Beginning to Mastery 🚀🔥</h1>
     <script>
-        document.write("<h3>Data Types</h3>");
+document.write("<h3>Variables Naming Rules</h3>");
 
-        //  Number
-        //  String
-        //  Boolean
-        //  Null
-        //  Undefined
-        //  Object
+// you cannot start with number
+// example :-
+var value1 = "value1";
+console.log(value1);
 
-        let a = 22;
-        let firstName = "shiv";
-        let bool = true;
-        var nul = null;
-        var unde;
-        var obj = {
-            name: "shiv",
-        };
+// you can use only undersore _ or dollar symbol
 
-        console.log("Number =>", typeof a);
-        console.log("String =>", typeof firstName);
-        console.log("Boolean =>", typeof bool);
-        console.log("Null =>", typeof nul);
-        console.log("Number =>", typeof unde);
-        console.log("Object =>", typeof obj);
+var first_name = "first_name";
+var _firstname = "_firstname";
+console.log(first_name);
+console.log(first_name);
 
-        // convert to string format in number format
-        let myStr = +"34";
-        console.log("convert to string => ", typeof myStr);
+var first$name = "first$name";
+var $firstname = "$firstname";
+console.log(first$name);
+console.log($firstname);
 
-        // convert to string format in number format
-        let age = "18";
-        age = Number(age);
-        console.log("Number => ", typeof age);
+// you cannot use spaces
+
+var firstname = "shiv"; //lovercase case writing
+var firstName = "kumar"; // camel case writing
+var FULLNAME = "prajapat"; // uppercase case writing
+console.log(firstname);
+console.log(firstName);
+console.log(FULLNAME);
 
     </script>
 </body>
