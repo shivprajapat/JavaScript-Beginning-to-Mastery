@@ -19,27 +19,39 @@
 <body>
     <h1>🚀🔥 JavaScript | Beginning to Mastery 🚀🔥</h1>
     <script>
-        document.write("<h3>Variables</h3>");
+        document.write("<h3>Data Types</h3>");
 
-        // types of Variables
-        // var ,let, const
+        //  Number
+        //  String
+        //  Boolean
+        //  Null
+        //  Undefined
+        //  Object
 
-        // declare var keyword
+        let a = 22;
+        let firstName = "shiv";
+        let bool = true;
+        var nul = null;
+        var unde;
+        var obj = {
+            name: "shiv",
+        };
 
-        var firstName = "shiv";
-        console.log(firstName);
+        console.log("Number =>", typeof a);
+        console.log("String =>", typeof firstName);
+        console.log("Boolean =>", typeof bool);
+        console.log("Null =>", typeof nul);
+        console.log("Number =>", typeof unde);
+        console.log("Object =>", typeof obj);
 
-        // declare let keyword
+        // convert to string format in number format
+        let myStr = +"34";
+        console.log("convert to string => ", typeof myStr);
 
-        let lastName = "shiv";
-        lastName = "kumar";
-        console.log(lastName);
-
-        // declare constant keyword
-
-        const fullName = "shivkumar";
-        console.log(fullName);
-
+        // convert to string format in number format
+        let age = "18";
+        age = Number(age);
+        console.log("Number => ", typeof age);
 
     </script>
 </body>
